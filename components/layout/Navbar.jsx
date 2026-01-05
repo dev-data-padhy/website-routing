@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import Image from "next/image";
 
-const NavBar = () => {
+const Navbar = () => {
     const pathname = usePathname() || '/';
     const links = [
         { href: '/', label: 'Home' },
@@ -55,4 +55,4 @@ const NavBar = () => {
     );
 };
 
-export default NavBar;
+export default Navbar;

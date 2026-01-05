@@ -1,5 +1,5 @@
 import "./globals.css";
-import NavBar from "../src/component/NavBar.jsx";
+import Navbar from "@/components/layout/Navbar";
 
 export const metadata = {
   title: "Gomango Next App",
@@ -10,7 +10,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <NavBar />
+        <Navbar />
         {children}
       </body>
     </html>
